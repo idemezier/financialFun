@@ -18,3 +18,15 @@ function onClick() {
 
 
 }
+
+
+{/* <div id="landingdiv2">
+    <div id="landingdivleft2">
+        <p id="landingheader2">Learn while you play</p>
+        <p id="landingheadersubtext2">Educate yourself on financial topics through interactive games for free</p>
+    </div>
+    <div id="landingdivright2">
+        <div id="leftimage2"><img id="actualleftimage"src="https://i.ibb.co/YTv0vkJ/image-6.png" alt=""></div>
+    </div>
+</div>
+  </div></div> */}
