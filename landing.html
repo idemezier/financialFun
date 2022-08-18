@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="style.css">
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <script src="main.js" defer></script>
+    <script src="slideshow.js" defer></script>
+
+    <title>LandingPage</title>
+</head>
+<body>
+    <div id="headerdiv">
+        <div id="headerdivleft">
+            <a href="index.html">
+                <img id="headerimage" src="https://i.ibb.co/zVfXSZS/image-2.png"></img>
+            </a>
+        </div>
+        <div id="headerdivright">
+            <div id="headerdivright">
+                <div><a href="landing.html">Search</a></div>
+                <div><a href="index.html">Browse</a></div>
+                <div><a href="index.html">Your Content</a></div>
+            </div>
+        </div>
+        <div id="logindiv">
+            <a href="login.html"><button id="login">Log in</button></a> 
+            <a href="login.html"><button id="joinnow">Join now</button></a> 
+
+        </div>
+    </div>
+
+    <div id="landingdiv">
+        <div id="landingdivleft">
+            <div id="leftimage"><img id="actualleftimage"src="https://i.pinimg.com/736x/1b/61/21/1b61216ceaccc25f3c386dce23ea567e.jpg" alt=""></div>
+        </div>
+        <div id="landingdivright">
+            <p id="landingheader">Financial education, made fun</p>
+            <p id="landingheadersubtext">Educate yourself on financial topics through interactive games for free</p>
+            <a href="login.html"><button id="joinnow">Join now</button></a>     
+        </div>
+    </div>
+
+    <div><div class="w3-container">
+      </div>
+      
+      <div class="w3-content w3-section" style="max-width:500px">
+        <div>
+            <img class="mySlides w3-animate-right" src="https://i.pinimg.com/736x/1b/61/21/1b61216ceaccc25f3c386dce23ea567e.jpg" style="width:100%">
+        </div>
+        
+        <div>
+            <img class="mySlides w3-animate-right" src="https://i.pinimg.com/736x/1b/61/21/1b61216ceaccc25f3c386dce23ea567e.jpg" style="width:100%">
+        </div>
+        <div>
+            <img class="mySlides w3-animate-right" src="https://i.pinimg.com/736x/1b/61/21/1b61216ceaccc25f3c386dce23ea567e.jpg" style="width:100%">
+        </div>
+        <div>
+            <img class="mySlides w3-animate-right" src="https://i.pinimg.com/736x/1b/61/21/1b61216ceaccc25f3c386dce23ea567e.jpg" style="width:100%">
+        </div>
+      </div></div>
+
+    <div id="statisticsdiv">
+       
+        <div id="statisticsimagediv">
+            <img id="statisticsimage" src="https://i.pinimg.com/736x/1b/61/21/1b61216ceaccc25f3c386dce23ea567e.jpg" alt="">
+        </div>
+        <div id="headerstatistics">
+            <p>4 in 7 Americans are financially illiterate*</p>
+        </div>
+        <div id="subheaderstatistics">
+            <p>We're changing that, one game at a time</p>
+            <a href="login.html"><button id="joinnow">Join now</button></a>     
+
+        </div>
+    </div>
+   
+
+    <div id="footerdiv">
+        <img id="footerimage"src="https://i.ibb.co/zVfXSZS/image-2.png" alt="">
+
+        <div id="footers">
+            <p>Content</p>
+            <p id="secondaryfooter">Content Philosophy</p>
+            <p id="secondaryfooter">Content Partners</p>
+            <p id="secondaryfooter">Content Guidelines</p>
+            <p id="secondaryfooter">Access and Equity</p>
+            <p id="secondaryfooter">Browse Content</p>
+        </div>
+
+        <div id="footers">
+            <p>Solutions</p>
+            <p id="secondaryfooter">Content Philosophy</p>
+            <p id="secondaryfooter">Content Partners</p>
+            <p id="secondaryfooter">Content Guidelines</p>
+            <p id="secondaryfooter">Access and Equity</p>
+            <p id="secondaryfooter">Browse Content</p>
+        </div>
+
+        <div id="footers">
+            <p>Services</p>
+            <p id="secondaryfooter">Training and support</p>
+            <p id="secondaryfooter">Implementation</p>
+            <p id="secondaryfooter">Programs</p>
+        </div>
+
+        <div id="footers">
+            <p>Company</p>
+            <p id="secondaryfooter">Who we are</p>
+            <p id="secondaryfooter">Press</p>
+            <p id="secondaryfooter">Team</p>
+            <p id="secondaryfooter">Careers</p>
+
+        </div>
+
+        <div id="footers">
+            <p>Contact</p>
+        </div>
+
+    </div>
+    <script>var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000);    
+        }
+        </script>
+</body>
+</html>
