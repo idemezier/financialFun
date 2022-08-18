@@ -26,7 +26,7 @@ function draw() {
     if (booleanCorrect3 == true) {
         fill(0, 255, 0)
     }
-    text("1. Credit score", 100, wordOrderList[0][1])
+    text("1. Secure password", 100, wordOrderList[0][1])
     fill(255, 255, 255)
 
     if (boolean2 == true) {
@@ -36,7 +36,7 @@ function draw() {
     if (booleanCorrect1 == true) {
         fill(0, 255, 0)
     }
-    text("2. Low Credit Score", 100, wordOrderList[1][1])
+    text("2. 'Random link' best practices", 100, wordOrderList[1][1])
     fill(255, 255, 255)
 
     if (boolean3 == true) {
@@ -45,28 +45,28 @@ function draw() {
     if (booleanCorrect2 == true) {
         fill(0, 255, 0)
     }
-    text('3. High Credit Score', 100, wordOrderList[2][1])
+    text('3. Insecure password', 100, wordOrderList[2][1])
     fill(255, 255, 255)
     textSize(20)
     
     if (booleanCorrect3 == true) {
         fill(0, 255, 0)
     }
-    text('c) The status of ones bank account.', 800, 300)
+    text('c) A long password with a combination of letters, numbers, and symbols', 800, 300)
     fill(255, 255, 255)
 
 
     if (booleanCorrect1 == true) {
         fill(0, 255, 0)
     }
-    text('a) Lenders, banks, and credit card issuers will be more reluctant to lend money.', 800, 100)
+    text('a) Dont click on them', 800, 100)
     fill(255, 255, 255)
 
 
     if (booleanCorrect2 == true) {
         fill(0, 255, 0)
     }
-    text('b) You are seen as more trustworthy when you pay loans or bills on time', 800, 200)
+    text('b) A short, simple, and guessable password', 800, 200)
 
     if (booleanCorrect1 == true && booleanCorrect2 == true && booleanCorrect3 == true) {
         fill(random(255), random(255), random(255))
